@@ -1,0 +1,56 @@
+rootProject.name = 'ares'
+include ':react-native-wx', ':NKeyBoard'
+project(':react-native-wx').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-wx/android')
+include ':react-native-weibo'
+project(':react-native-weibo').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-weibo/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+include ':react-native-send-intent'
+project(':react-native-send-intent').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-send-intent/android')
+include ':react-native-qq'
+project(':react-native-qq').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-qq/android')
+include ':react-native-picker'
+project(':react-native-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-picker/android')
+include ':react-native-device-info'
+project(':react-native-device-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')
+include ':react-native-bdmap'
+project(':react-native-bdmap').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-bdmap/android')
+include ':react-native-wx'
+project(':react-native-wx').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-wx/android')
+include ':react-native-weibo'
+project(':react-native-weibo').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-weibo/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+include ':react-native-send-intent'
+project(':react-native-send-intent').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-send-intent/android')
+include ':react-native-qq'
+project(':react-native-qq').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-qq/android')
+include ':react-native-device-info'
+project(':react-native-device-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')
+include ':react-native-bdmap'
+project(':react-native-bdmap').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-bdmap/android')
+
+include ':app'
+include ':react-native-device-info'
+project(':react-native-device-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')
+
+include ':RNSendIntentModule', ':app'
+project(':RNSendIntentModule').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-send-intent/android')
+
+include ':react-native-barcodescanner', ':app'
+project(':react-native-barcodescanner').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-barcodescanner/android')
+
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+
+include ':react-native-bdmap'
+project(':react-native-bdmap').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-bdmap/android')
+
+include ':react-native-wx'
+project(':react-native-wx').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-wx/android')
+
+include ':react-native-qq'
+project(':react-native-qq').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-qq/android')
+
+include ':react-native-weibo'
+project(':react-native-weibo').projectDir = new File(settingsDir, '../node_modules/react-native-weibo/android')

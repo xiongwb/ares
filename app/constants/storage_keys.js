@@ -1,0 +1,5 @@
+export default {
+  SIGN_TOKEN: "SIGN_TOKEN",
+  FIRST_USE: "FIRST_USE",
+  ADDRESS: "ADDRESS",
+}

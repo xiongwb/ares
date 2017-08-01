@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="bcs_label_done">确定</string>
+    <string name="bcs_label_ABC">ABC</string>
+    <string name="bcs_safename">爱加密安全键盘</string>
+</resources>

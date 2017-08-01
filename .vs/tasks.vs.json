@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "任务-water_cost",
+      "appliesTo": "app/pages/water_cost.js",
+      "type": "command"
+    }
+  ]
+}

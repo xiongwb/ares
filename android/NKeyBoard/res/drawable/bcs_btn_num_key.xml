@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <selector>
+        <item android:state_pressed="true">
+            <shape>
+
+                <solid android:color="@color/bcs_safeskb_bg_grey" />
+            </shape>
+        </item>
+        <item android:state_enabled="false">
+            <shape>
+                <stroke android:width="0.5dp" android:color="@color/bcs_safeskb_bg_grey"></stroke> 
+                <solid android:color="@color/white" />
+            </shape>
+        </item>
+        <item>
+            <shape>
+                <solid android:color="@color/bcs_safeskb_bg_grey" />
+            </shape>
+        </item>
+    </selector>
+
+</inset>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smileback.bankcommunicationsstyle.BCSCustomLettersKeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:keyPreviewLayout="@layout/preview_keyboard"
+    android:keyPreviewHeight="55dip"
+    android:keyPreviewOffset="-3dp"/>
